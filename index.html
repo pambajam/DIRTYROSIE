@@ -6,7 +6,7 @@
     <title>Gestion Groupe - Accueil</title>
     <style>
         body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Segoe UI', Roboto, sans-serif;
             background-color: #f4f7f6;
             display: flex;
             justify-content: center;
@@ -27,13 +27,11 @@
             max-width: 140px;
             height: auto;
             margin-bottom: 1.5rem;
-            border-radius: 8px;
         }
         h1 {
             color: #2c3e50;
             font-size: 1.6rem;
             margin-bottom: 2rem;
-            font-weight: 600;
         }
         nav {
             display: flex;
@@ -49,17 +47,11 @@
             transition: all 0.3s ease;
             font-weight: 500;
             display: block;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .btn:hover {
             background-color: #34495e;
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
-        .btn:active {
-            transform: translateY(0);
-        }
-        /* Style spécifique pour le bouton Rider (Orange) */
         .btn-rider {
             background-color: #e67e22;
         }
@@ -72,18 +64,13 @@
             border-top: 1px solid #eee;
             margin: 10px 0;
         }
-        .footer-text {
-            margin-top: 2rem;
-            font-size: 0.8rem;
-            color: #95a5a6;
-        }
     </style>
 </head>
 <body>
 
 <div class="container">
     <div class="logo-container">
-        <img src="logo.png" alt="Logo Dirty Rosie" onerror="this.src='https://via.placeholder.com/150/2c3e50/ffffff?text=DIRTY+ROSIE'">
+        <img src="logo.png" alt="Logo" onerror="this.src='https://via.placeholder.com/150/2c3e50/ffffff?text=ROSIE'">
     </div>
 
     <h1>Tableau de bord</h1>
@@ -94,14 +81,8 @@
         
         <hr>
         
-        <a href="dirty%20rosie.pdf" target="_blank" class="row-btn btn btn-rider">
-            Consulter le Rider (PDF)
-        </a>
+        <a href="dirty-rosie.pdf" target="_blank" class="btn btn-rider">Consulter le Rider</a>
     </nav>
-
-    <div class="footer-text">
-        &copy; 2026 Dirty Rosie - Gestion Interne
-    </div>
 </div>
 
 </body>
